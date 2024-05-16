@@ -1,5 +1,5 @@
 {
-  "name": "@rc-component/context",
+  "name": "rc-context-modern",
   "version": "1.4.0",
   "description": "React way perf context selector",
   "keywords": [
@@ -29,14 +29,13 @@
     "coverage": "father test --coverage",
     "lint": "eslint src/ docs/ --ext .tsx,.ts,.jsx,.js",
     "now-build": "npm run build",
-    "prepublishOnly": "npm run compile && np --yolo --no-publish",
     "start": "dumi dev",
     "test": "rc-test",
     "tsc": "tsc --noEmit"
   },
   "dependencies": {
     "@babel/runtime": "^7.10.1",
-    "rc-util": "^5.27.0"
+    "rc-util": "npm:rc-util-modern@^5.27.0"
   },
   "devDependencies": {
     "@rc-component/father-plugin": "^1.0.0",
